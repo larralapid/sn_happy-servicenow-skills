@@ -1,9 +1,9 @@
 /**
- * Happy ServiceNow AI Skills
- * Platform-agnostic AI skills library for ServiceNow
+ * Happy Platform Skills
+ * Reusable development patterns and automation recipes for enterprise platforms
  *
  * @author Happy Technologies LLC
- * @license MIT
+ * @license Apache-2.0
  */
 
 export { SkillLoader } from './loader.js';
@@ -17,7 +17,24 @@ export const CATEGORIES = {
   ADMIN: 'admin',
   CATALOG: 'catalog',
   SECURITY: 'security',
-  REPORTING: 'reporting'
+  REPORTING: 'reporting',
+  DEVELOPMENT: 'development',
+  CSM: 'csm',
+  HRSD: 'hrsd',
+  KNOWLEDGE: 'knowledge',
+  SECOPS: 'secops',
+  GRC: 'grc',
+  ITOM: 'itom',
+  GENAI: 'genai',
+  SPM: 'spm',
+  PROCUREMENT: 'procurement',
+  LEGAL: 'legal',
+  DOCUMENT: 'document',
+  EA: 'ea',
+  FSM: 'fsm',
+  SAM: 'sam',
+  OTSM: 'otsm',
+  PSDS: 'psds'
 };
 
 // Supported platforms
